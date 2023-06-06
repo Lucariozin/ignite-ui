@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui-lucariozin/tokens",
+  "name": "@ignite-ui-lucariozin/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@ignite-ui-lucariozin/tokens": "*",
+
     "tsup": "^6.7.0",
     "typescript": "^5.1.3"
   }
