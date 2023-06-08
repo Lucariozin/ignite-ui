@@ -27,6 +27,10 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
+    "@ignite-ui-lucariozin/react": "*",
+    "@ignite-ui-lucariozin/tokens": "*",
+    "@ignite-ui-lucariozin/eslint-config": "*",
+
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
