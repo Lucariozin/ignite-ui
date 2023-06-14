@@ -29,11 +29,11 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
+    "@ignite-ui-lucariozin/eslint-config": "*",
     "@ignite-ui-lucariozin/react": "*",
     "@ignite-ui-lucariozin/tokens": "*",
     "@ignite-ui-lucariozin/ts-config": "*",
-    "@ignite-ui-lucariozin/eslint-config": "*",
-
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
