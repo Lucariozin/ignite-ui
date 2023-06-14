@@ -8,6 +8,7 @@ export const Container = styled(Checkbox.Root, {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+  flexShrink: 'none',
 
   width: '$6',
   height: '$6',
