@@ -7,9 +7,23 @@ import { Button, ButtonProps } from '@ignite-ui-lucariozin/react'
 export default {
   title: 'Form/Button',
   component: Button,
-
   args: {
     children: 'Send',
+    variant: 'primary',
+    size: 'md',
+    disabled: false,
+  },
+  argTypes: {
+    variant: {
+      options: ['primary', 'secondary', 'tertiary'],
+      control: 'inline-radio',
+    },
+    size: {
+      options: ['sm', 'md'],
+      control: 'inline-radio',
+    },
+    disabled: { control: 'boolean' },
+    onClick: { action: 'click' },
   },
 } as Meta<ButtonProps>
 
@@ -36,6 +50,9 @@ export const WithIcon: StoryObj<ButtonProps> = {
         Próximo passo <ArrowRight weight="bold" />
       </>
     ),
+  },
+  argTypes: {
+    children: { control: { type: null } },
   },
 }
 
