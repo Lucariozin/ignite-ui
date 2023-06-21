@@ -17,18 +17,18 @@ export const Container = styled(Checkbox.Root, {
   borderRadius: '$xs',
   boxSizing: 'border-box',
   backgroundColor: '$gray900',
-  border: '1px solid $gray900',
+  border: '2px solid $gray900',
 
   cursor: 'pointer',
   overflow: 'hidden',
   transition: 'border-color 0.2s, background-color 0.1s',
 
   '&:focus-visible': {
-    border: '1px solid $ignite300',
+    border: '2px solid $ignite300',
   },
 
   '&:has(svg[data-state="checked"])': {
-    border: '1px solid $ignite300',
+    border: '2px solid $ignite300',
   },
 
   '&[data-state="checked"]': {
