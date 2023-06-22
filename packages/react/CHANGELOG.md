@@ -1,5 +1,11 @@
 # @ignite-ui-lucariozin/react
 
+## 2.2.0
+
+### Minor Changes
+
+- Adding "Toast" component to "react" package
+
 ## 2.1.0
 
 ### Minor Changes
