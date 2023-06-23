@@ -1,5 +1,11 @@
 # @ignite-ui-lucariozin/react
 
+## 2.3.0
+
+### Minor Changes
+
+- Adding 'Tooltip' component
+
 ## 2.2.0
 
 ### Minor Changes
